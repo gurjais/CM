@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         println("Life cycle: onResume")
     }
-//nvfdngdfnfgo
+
     override fun onPause() {
         super.onPause()
         println("Life cycle: onPause")
