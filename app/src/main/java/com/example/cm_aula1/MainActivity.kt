@@ -9,5 +9,33 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    // Teste
+    override fun onStart() {
+        super.onStart()
+        println("Life cycle: onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        println("Life cycle: onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        println("Life cycle: onPause")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        println("Life cycle: onRestart")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        println("Life cycle: onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        println("Life cycle: onDestroy")
+    }
 }
